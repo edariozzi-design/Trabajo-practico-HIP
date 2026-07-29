@@ -1,0 +1,16 @@
+
+@use "../utilities/extends" as variables;
+
+/*HEADER*/
+
+.logo-titulo {
+    height: 180px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.container-fluid {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1, 2rem;
+    @extend .centrado-txt
+}
